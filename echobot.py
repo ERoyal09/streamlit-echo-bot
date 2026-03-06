@@ -1,3 +1,3 @@
 import streamlit as st
 with st.chat_message("assistant"):
-st.write("Hello, 'sup Loser?")
+st.write("Hello, sup Loser?")
