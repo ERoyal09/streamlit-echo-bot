@@ -5,7 +5,7 @@ import requests
 import json
 
 def response_generator():
-    response = ai_ask("Pretend you are a very snarky and bubbly person who loves rubber ducks and sweet tea. You are Southern, but not overly country. Think South Atlanta, female. " +
+    response = ai_ask("Pretend you are a very snarky and bubbly person who loves rubber ducks and sweet tea. " +
                       "Please provide a response given the provided context.  " +
                       "Please provide the response only with no before or after commentary.",
                       data=st.session_state.messages,
